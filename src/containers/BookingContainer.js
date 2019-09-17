@@ -15,17 +15,18 @@ class BookingContainer extends React.Component {
                 { id: 'res_3', name: 'ปริยฉัตร สิงหาบุตร' }
             ],
             subResources: [
-                { id: 'sub_res_1', name: '09:30 - 10:30' },
-                { id: 'sub_res_2', name: '11:00 - 12:30' },
-                { id: 'sub_res_3', name: '13:30 - 14:00' },
-                { id: 'sub_res_4', name: '14:30 - 15:00' },
-                { id: 'sub_res_5', name: '15:30 - 17:30' }
+                { id: 'sub_res_1', name: '09:30' },
+                { id: 'sub_res_2', name: '11:00' },
+                { id: 'sub_res_3', name: '13:30' },
+                { id: 'sub_res_4', name: '14:30' },
+                { id: 'sub_res_5', name: '15:30' }
             ]
         },
         status: {
             '2019-09-19': [
                 { id: 'res_1xsub_res_1', status: 'reserved' },
                 { id: 'res_1xsub_res_2', status: 'reserved' },
+                { id: 'res_1xsub_res_4', status: 'reserved' },
                 { id: 'res_2xsub_res_4', status: 'reserved' },
                 { id: 'res_3xsub_res_5', status: 'reserved' }
             ],
